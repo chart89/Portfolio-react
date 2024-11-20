@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Links from "./links/Links";
 import "./sidebar.scss";
 import ToggleButton from "./toggleButton/ToggleButton";
-import { clipPath } from "framer-motion/client";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
